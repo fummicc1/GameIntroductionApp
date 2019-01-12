@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class ShowGameListViewController: UIViewController {
 
@@ -18,6 +19,10 @@ class ShowGameListViewController: UIViewController {
         super.viewDidLoad()
         table.delegate = self
         table.dataSource = self
+        
+        let realm = try! Realm()
+        let games = realm.objects(GameModel.self)
+        (UIApplication.shared.delegate as! AppDelegate).games.append(contentsOf: games)
     }
     
     override func viewWillAppear(_ animated: Bool) {

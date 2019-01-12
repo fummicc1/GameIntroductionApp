@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class AddGameViewController: UIViewController {
 
@@ -24,12 +25,20 @@ class AddGameViewController: UIViewController {
         
         if let name = gameNameTextField.text, let urlStr = urlTextField.text {
             
-            let url = URL(string: urlStr)
             let game = GameModel()
-            game.gameName = name
-            game.url = url
             
+            if let url = URL(string: urlStr) {
+                game.urlString = url.absoluteString
+            }
+            
+            game.gameName = name
             (UIApplication.shared.delegate as! AppDelegate).games.append(game)
+            
+            let realm = try! Realm()
+            try! realm.write {
+                realm.add(game)
+            }
+            
         }
         
     }

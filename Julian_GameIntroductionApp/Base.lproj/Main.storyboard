@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--ゲームを追加-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="AddGameViewController" customModule="Julian_GameIntroductionApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,16 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ゲームのタイトルを入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ng1-LX-92L">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ゲームのタイトルを入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ng1-LX-92L">
                                 <rect key="frame" x="40" y="86" width="294" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ゲームのURL (任意)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRO-AP-iLI">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ゲームのURL (任意)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRO-AP-iLI">
                                 <rect key="frame" x="40" y="173" width="294" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -35,6 +37,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUg-Nw-fNa">
                                 <rect key="frame" x="128" y="294" width="118" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14901960780000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <state key="normal" title="保存"/>
                                 <connections>
@@ -45,7 +48,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="NKr-mR-bQn"/>
+                    <tabBarItem key="tabBarItem" title="ゲームを追加" id="NKr-mR-bQn"/>
                     <connections>
                         <outlet property="gameNameTextField" destination="Ng1-LX-92L" id="0ml-Uu-Kjg"/>
                         <outlet property="urlTextField" destination="dRO-AP-iLI" id="Dxv-yA-8ut"/>
@@ -55,7 +58,7 @@
             </objects>
             <point key="canvasLocation" x="1084" y="-309.89505247376314"/>
         </scene>
-        <!--Item-->
+        <!--ゲーム紹介-->
         <scene sceneID="qKj-52-bRh">
             <objects>
                 <viewController id="1mC-jX-fyr" customClass="ShowGameListViewController" customModule="Julian_GameIntroductionApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -80,7 +83,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DhD-f1-khk">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DhD-f1-khk">
                                                     <rect key="frame" x="55" y="36" width="264" height="30"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -91,6 +94,7 @@
                                                     <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                                 </textView>
                                             </subviews>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                             <constraints>
                                                 <constraint firstItem="DhD-f1-khk" firstAttribute="leading" secondItem="0y0-58-8bT" secondAttribute="leadingMargin" constant="40" id="4ws-kD-KAd"/>
                                                 <constraint firstItem="Ayt-13-U15" firstAttribute="leading" secondItem="0y0-58-8bT" secondAttribute="leadingMargin" id="Bwb-UZ-KJv"/>
@@ -118,7 +122,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vdo-ME-Jgr"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="0te-yz-SXJ"/>
+                    <tabBarItem key="tabBarItem" title="ゲーム紹介" id="0te-yz-SXJ"/>
                     <connections>
                         <outlet property="table" destination="xcJ-tg-mwb" id="523-uR-FoH"/>
                     </connections>

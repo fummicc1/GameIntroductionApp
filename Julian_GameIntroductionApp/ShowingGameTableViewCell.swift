@@ -13,12 +13,11 @@ class ShowingGameTableViewCell: UITableViewCell {
     @IBOutlet var gameNameLabel: UILabel!
     @IBOutlet var urlTextView: UITextView!
     
-    var game: GameModel! {
+    var game: GameModel! {        
         didSet {
-            
             gameNameLabel.text = game.gameName
             
-            if let url = game.url {
+            if let url = URL(string: game.urlString) {
                 urlTextView.text = String(describing: url)
             }
         }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C09E46CD51F9A360B12DC13 /* Pods_Julian_GameIntroductionAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BF5F75A4DF4C680FD979F4 /* Pods_Julian_GameIntroductionAppTests.framework */; };
+		5E78080BBA79ABCBC7B2E97D /* Pods_Julian_GameIntroductionAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D5D72EB435FD2FCA38EADF /* Pods_Julian_GameIntroductionAppUITests.framework */; };
 		D3E4046B21E8B1B8006B3C57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4046A21E8B1B8006B3C57 /* AppDelegate.swift */; };
 		D3E4047021E8B1B8006B3C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E4046E21E8B1B8006B3C57 /* Main.storyboard */; };
 		D3E4047221E8B1B8006B3C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E4047121E8B1B8006B3C57 /* Assets.xcassets */; };
@@ -17,6 +19,7 @@
 		D3E4049B21E8B326006B3C57 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4049A21E8B326006B3C57 /* GameModel.swift */; };
 		D3E4049D21E8B372006B3C57 /* ShowingGameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4049C21E8B372006B3C57 /* ShowingGameTableViewCell.swift */; };
 		D3E404B421E8B4BC006B3C57 /* AddGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E404B321E8B4BC006B3C57 /* AddGameViewController.swift */; };
+		ED449991136F72A869A94CCE /* Pods_Julian_GameIntroductionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D888C6D8F3C53A173EE1BD7C /* Pods_Julian_GameIntroductionApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A2B1DE78C1A4F3D50B864A1 /* Pods-Julian_GameIntroductionAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Julian_GameIntroductionAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Julian_GameIntroductionAppUITests/Pods-Julian_GameIntroductionAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D4C9EF700B4876A05A5B2D8 /* Pods-Julian_GameIntroductionAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Julian_GameIntroductionAppTests.debug.xcconfig"; path = "Target Support Files/Pods-Julian_GameIntroductionAppTests/Pods-Julian_GameIntroductionAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E73CA70B3ADA15ACBCF0249 /* Pods-Julian_GameIntroductionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Julian_GameIntroductionApp.release.xcconfig"; path = "Target Support Files/Pods-Julian_GameIntroductionApp/Pods-Julian_GameIntroductionApp.release.xcconfig"; sourceTree = "<group>"; };
+		4398C399A949BACEA4171504 /* Pods-Julian_GameIntroductionAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Julian_GameIntroductionAppUITests.release.xcconfig"; path = "Target Support Files/Pods-Julian_GameIntroductionAppUITests/Pods-Julian_GameIntroductionAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53D5D72EB435FD2FCA38EADF /* Pods_Julian_GameIntroductionAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Julian_GameIntroductionAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BF5F75A4DF4C680FD979F4 /* Pods_Julian_GameIntroductionAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Julian_GameIntroductionAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47FCE11ED3BAAFA8769120A /* Pods-Julian_GameIntroductionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Julian_GameIntroductionApp.debug.xcconfig"; path = "Target Support Files/Pods-Julian_GameIntroductionApp/Pods-Julian_GameIntroductionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A6D7747B4CE6A4465365DB5D /* Pods-Julian_GameIntroductionAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Julian_GameIntroductionAppTests.release.xcconfig"; path = "Target Support Files/Pods-Julian_GameIntroductionAppTests/Pods-Julian_GameIntroductionAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		D3E4046721E8B1B8006B3C57 /* Julian_GameIntroductionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Julian_GameIntroductionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E4046A21E8B1B8006B3C57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E4046F21E8B1B8006B3C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +64,7 @@
 		D3E4049A21E8B326006B3C57 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		D3E4049C21E8B372006B3C57 /* ShowingGameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingGameTableViewCell.swift; sourceTree = "<group>"; };
 		D3E404B321E8B4BC006B3C57 /* AddGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGameViewController.swift; sourceTree = "<group>"; };
+		D888C6D8F3C53A173EE1BD7C /* Pods_Julian_GameIntroductionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Julian_GameIntroductionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED449991136F72A869A94CCE /* Pods_Julian_GameIntroductionApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C09E46CD51F9A360B12DC13 /* Pods_Julian_GameIntroductionAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E78080BBA79ABCBC7B2E97D /* Pods_Julian_GameIntroductionAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F9E785A5DFBA20FF3F0B7FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A47FCE11ED3BAAFA8769120A /* Pods-Julian_GameIntroductionApp.debug.xcconfig */,
+				3E73CA70B3ADA15ACBCF0249 /* Pods-Julian_GameIntroductionApp.release.xcconfig */,
+				3D4C9EF700B4876A05A5B2D8 /* Pods-Julian_GameIntroductionAppTests.debug.xcconfig */,
+				A6D7747B4CE6A4465365DB5D /* Pods-Julian_GameIntroductionAppTests.release.xcconfig */,
+				1A2B1DE78C1A4F3D50B864A1 /* Pods-Julian_GameIntroductionAppUITests.debug.xcconfig */,
+				4398C399A949BACEA4171504 /* Pods-Julian_GameIntroductionAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D3E4045E21E8B1B7006B3C57 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +116,8 @@
 				D3E4047E21E8B1B8006B3C57 /* Julian_GameIntroductionAppTests */,
 				D3E4048921E8B1B8006B3C57 /* Julian_GameIntroductionAppUITests */,
 				D3E4046821E8B1B8006B3C57 /* Products */,
+				4F9E785A5DFBA20FF3F0B7FF /* Pods */,
+				DAB8FF65433780F081EE191A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +165,16 @@
 			path = Julian_GameIntroductionAppUITests;
 			sourceTree = "<group>";
 		};
+		DAB8FF65433780F081EE191A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D888C6D8F3C53A173EE1BD7C /* Pods_Julian_GameIntroductionApp.framework */,
+				62BF5F75A4DF4C680FD979F4 /* Pods_Julian_GameIntroductionAppTests.framework */,
+				53D5D72EB435FD2FCA38EADF /* Pods_Julian_GameIntroductionAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3E4048F21E8B1B8006B3C57 /* Build configuration list for PBXNativeTarget "Julian_GameIntroductionApp" */;
 			buildPhases = (
+				F32E1C555D5F848138B76FF6 /* [CP] Check Pods Manifest.lock */,
 				D3E4046321E8B1B8006B3C57 /* Sources */,
 				D3E4046421E8B1B8006B3C57 /* Frameworks */,
 				D3E4046521E8B1B8006B3C57 /* Resources */,
+				946D8A01C14F76B66AE7BF2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3E4049221E8B1B8006B3C57 /* Build configuration list for PBXNativeTarget "Julian_GameIntroductionAppTests" */;
 			buildPhases = (
+				04EF2652D342D9E189D24355 /* [CP] Check Pods Manifest.lock */,
 				D3E4047721E8B1B8006B3C57 /* Sources */,
 				D3E4047821E8B1B8006B3C57 /* Frameworks */,
 				D3E4047921E8B1B8006B3C57 /* Resources */,
@@ -176,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3E4049521E8B1B8006B3C57 /* Build configuration list for PBXNativeTarget "Julian_GameIntroductionAppUITests" */;
 			buildPhases = (
+				D01F4DBC79AA1A6304DC0F3D /* [CP] Check Pods Manifest.lock */,
 				D3E4048221E8B1B8006B3C57 /* Sources */,
 				D3E4048321E8B1B8006B3C57 /* Frameworks */,
 				D3E4048421E8B1B8006B3C57 /* Resources */,
@@ -259,6 +304,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04EF2652D342D9E189D24355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Julian_GameIntroductionAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		946D8A01C14F76B66AE7BF2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Julian_GameIntroductionApp/Pods-Julian_GameIntroductionApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Julian_GameIntroductionApp/Pods-Julian_GameIntroductionApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D01F4DBC79AA1A6304DC0F3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Julian_GameIntroductionAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F32E1C555D5F848138B76FF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Julian_GameIntroductionApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3E4046321E8B1B8006B3C57 /* Sources */ = {
@@ -442,6 +580,7 @@
 		};
 		D3E4049021E8B1B8006B3C57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47FCE11ED3BAAFA8769120A /* Pods-Julian_GameIntroductionApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,6 +599,7 @@
 		};
 		D3E4049121E8B1B8006B3C57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E73CA70B3ADA15ACBCF0249 /* Pods-Julian_GameIntroductionApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +618,7 @@
 		};
 		D3E4049321E8B1B8006B3C57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4C9EF700B4876A05A5B2D8 /* Pods-Julian_GameIntroductionAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +640,7 @@
 		};
 		D3E4049421E8B1B8006B3C57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D7747B4CE6A4465365DB5D /* Pods-Julian_GameIntroductionAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +662,7 @@
 		};
 		D3E4049621E8B1B8006B3C57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2B1DE78C1A4F3D50B864A1 /* Pods-Julian_GameIntroductionAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +683,7 @@
 		};
 		D3E4049721E8B1B8006B3C57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4398C399A949BACEA4171504 /* Pods-Julian_GameIntroductionAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import RealmSwift
 
-class GameModel {
-    var gameName: String = ""
-    var url: URL?
+class GameModel: Object {
+    @objc dynamic var gameName: String = ""
+    @objc dynamic var urlString: String = ""
 }
